@@ -1,0 +1,65 @@
+2023-10-31T05:00:03.211Z info: 🟢 Middlewares configurated
+2023-10-31T05:00:03.213Z info: 🟢 Routes registered
+2023-10-31T05:00:03.217Z info: 🟢 App listening on the port 3000
+2023-10-31T05:00:03.370Z info: 🟢 Connected to the database
+2023-10-31T05:04:00.114Z info: [0mPOST /users [32m200[0m 37.403 ms - 197[0m
+2023-10-31T05:06:07.416Z info: [0mGET /users [32m200[0m 9.625 ms - 179[0m
+2023-10-31T05:07:04.792Z info: [0mGET /users/65401dacb135ba8995dc446e [32m200[0m 4.552 ms - 4[0m
+2023-10-31T05:10:43.243Z info: [0mGET /users/65408ac092fa3d0d82bd95ed [32m200[0m 3.274 ms - 177[0m
+2023-10-31T05:13:31.177Z error: Error 500 - E11000 duplicate key error collection: database-example.users index: email_1 dup key: { email: "mati@gmail.com" }
+2023-10-31T05:13:31.178Z info: [0mPOST /users [31m500[0m 10.762 ms - 142[0m
+2023-10-31T05:14:20.039Z error: Error 500 - E11000 duplicate key error collection: database-example.users index: email_1 dup key: { email: "mati@gmail.com" }
+2023-10-31T05:14:20.040Z info: [0mPOST /users [31m500[0m 4.226 ms - 142[0m
+2023-10-31T05:14:27.466Z error: Error 500 - E11000 duplicate key error collection: database-example.users index: email_1 dup key: { email: "mati@gmail.com" }
+2023-10-31T05:14:27.467Z info: [0mPOST /users [31m500[0m 3.082 ms - 142[0m
+2023-10-31T05:15:50.699Z info: [0mPOST /users [32m200[0m 2.596 ms - 198[0m
+2023-10-31T05:17:35.991Z info: [0mPOST /users [32m200[0m 2.410 ms - 205[0m
+2023-10-31T05:18:21.172Z info: [0mGET /users [32m200[0m 6.652 ms - 543[0m
+2023-10-31T05:19:42.702Z error: Error 500 - E11000 duplicate key error collection: database-example.users index: email_1 dup key: { email: "mati4444@gmail.com" }
+2023-10-31T05:19:42.703Z info: [0mPOST /users [31m500[0m 2.861 ms - 146[0m
+2023-10-31T05:20:00.953Z info: [0mPOST /users [32m200[0m 2.167 ms - 216[0m
+2023-10-31T05:20:38.671Z info: [0mPOST /users [32m200[0m 3.876 ms - 206[0m
+2023-10-31T05:21:06.107Z info: 🟢 Middlewares configurated
+2023-10-31T05:21:06.109Z info: 🟢 Routes registered
+2023-10-31T05:21:06.112Z info: 🟢 App listening on the port 3000
+2023-10-31T05:21:06.123Z info: 🟢 Connected to the database
+2023-10-31T05:21:28.593Z info: [0mPOST /users [32m200[0m 22.280 ms - 213[0m
+2023-10-31T05:21:54.096Z info: [0mPOST /users [32m200[0m 2.966 ms - 187[0m
+2023-10-31T05:23:39.623Z info: [0mGET /users/65408ac092fa3d0d82bd95ed [32m200[0m 7.057 ms - 177[0m
+2023-10-31T05:24:44.280Z info: [0mGET /users/65408ed824f29d7b38452a36 [32m200[0m 2.023 ms - 190[0m
+2023-10-31T05:27:44.203Z info: [0mGET /usuarios/65408ed824f29d7b38452a36 [33m404[0m 1.324 ms - 172[0m
+2023-10-31T05:27:50.417Z info: [0mGET /users/65408ed824f29d7b38452a36 [32m200[0m 1.845 ms - 190[0m
+2023-10-31T05:29:15.027Z info: 🟢 Middlewares configurated
+2023-10-31T05:29:15.030Z info: 🟢 Routes registered
+2023-10-31T05:29:15.036Z info: 🟢 App listening on the port 3000
+2023-10-31T05:29:15.055Z info: 🟢 Connected to the database
+2023-10-31T05:29:26.746Z info: [0mGET /users/65408ed824f29d7b38452a36 [32m200[0m 14.529 ms - 190[0m
+2023-10-31T05:30:01.249Z info: [0mGET /users/65408ac092fa3d0d82bd95ed [32m200[0m 2.405 ms - 177[0m
+2023-10-31T05:30:24.406Z info: [0mDELETE /users/65408ac092fa3d0d82bd95ed [32m200[0m 4.720 ms - 177[0m
+2023-10-31T05:37:44.914Z info: [0mPOST /productos [32m200[0m 30.141 ms - 316[0m
+2023-10-31T05:38:44.451Z info: [0mGET /productos [32m200[0m 4.120 ms - 318[0m
+2023-10-31T05:39:29.974Z error: Error 401 - Missing authorization header.
+2023-10-31T05:39:29.975Z info: [0mGET /productos/654092a8db9f004a620b28e4 [33m401[0m 1.418 ms - 56[0m
+2023-10-31T05:40:40.791Z error: Error 401 - Missing authorization header.
+2023-10-31T05:40:40.792Z info: [0mDELETE /productos/654092a8db9f004a620b28e4 [33m401[0m 1.664 ms - 56[0m
+2023-10-31T05:46:57.920Z info: [0mGET /auth/signup [33m404[0m 1.388 ms - 150[0m
+2023-10-31T05:47:12.539Z error: Validation Error: La contraseña debe tener al menos 6 caracteres
+2023-10-31T05:47:12.539Z error: Error 400 - La contraseña debe tener al menos 6 caracteres
+2023-10-31T05:47:12.540Z info: [0mPOST /auth/signup [33m400[0m 6.741 ms - 74[0m
+2023-10-31T05:47:23.992Z error: Validation Error: La contraseña debe tener al menos 6 caracteres
+2023-10-31T05:47:23.993Z error: Error 400 - La contraseña debe tener al menos 6 caracteres
+2023-10-31T05:47:23.994Z info: [0mPOST /auth/signup [33m400[0m 2.630 ms - 74[0m
+2023-10-31T05:47:53.844Z info: [0mPOST /auth/signup [32m200[0m 134.554 ms - 176[0m
+2023-10-31T05:48:25.773Z info: 🟢 Middlewares configurated
+2023-10-31T05:48:25.775Z info: 🟢 Routes registered
+2023-10-31T05:48:25.778Z info: 🟢 App listening on the port 3000
+2023-10-31T05:48:25.789Z info: 🟢 Connected to the database
+2023-10-31T05:48:27.006Z info: 🟢 Middlewares configurated
+2023-10-31T05:48:27.008Z info: 🟢 Routes registered
+2023-10-31T05:48:27.011Z info: 🟢 App listening on the port 3000
+2023-10-31T05:48:27.022Z info: 🟢 Connected to the database
+2023-10-31T05:49:16.390Z error: Validation Error: El email no es válido, La contraseña debe tener al menos 6 caracteres
+2023-10-31T05:49:16.391Z error: Error 400 - El email no es válido, La contraseña debe tener al menos 6 caracteres
+2023-10-31T05:49:16.396Z info: [0mPOST /auth/login [33m400[0m 8.553 ms - 98[0m
+2023-10-31T05:49:47.561Z info: [0mPOST /auth/login [32m200[0m 98.949 ms - 359[0m
+2023-10-31T05:51:44.080Z info: [0mDELETE /productos/654092a8db9f004a620b28e4 [32m200[0m 12.470 ms - 316[0m
